@@ -1,4 +1,8 @@
 .navbar{
-    height: 4rem;
-    background-color: #222831 !important; 
+    height: 6rem;
+    background-color: #222831 !important;
+}
+
+.nav-logo{
+    height: 5rem;
 }
