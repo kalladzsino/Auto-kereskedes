@@ -1,0 +1,48 @@
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <span class="bi bi-car-front-fill"></span>
+                    Autókereskedés
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="osszesFilmGomb" href="#">
+                                <span class="bi bi-house-door"></span>
+                                Összes film
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                <span class="bi bi-funnel"></span>
+                                Kategóriák
+                            </a>
+                            <ul class="dropdown-menu" id="kategoriaMenu">
+                                <!-- Dinamikusan generált kategóriák lesznek ----->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#" data-bs-toggle="modal" data-bs-target="#keresoModal">
+                                <span class="bi bi-search"></span>
+                                Keresés
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#" id="osszesTorlesGomb">
+                                <span class="bi bi-trash"></span>
+                                Összes törlése
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text" id="filmekSzama">
+                        Filmek: 0
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
