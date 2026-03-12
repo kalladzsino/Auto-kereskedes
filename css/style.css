@@ -1,8 +1,38 @@
-.navbar{
-    height: 6rem;
-    background-color: #222831 !important;
+@font-face {
+    font-family: 'TT Octosquares';
+    src: url('../assets/fonts/ttoctos.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
 }
 
+
+:root {
+  --elsodleges-szin: #30475E;
+  --kiemeles-szin: #222831;
+  --hatter-szin: #DDDDDD;
+  --piros: #F05454;
+  --zold: #236929;
+  --kek: #083d8d;
+}
+
+
+body{
+    font-family: 'TT Octosquares';
+    background-color: var(--hatter-szin);
+}
+
+.navbar{
+    height: auto;
+    background-color: var(--kiemeles-szin);
+    border-radius: 0px 0px 35px 35px;
+}
+
+li{
+    background-color: var(--elsodleges-szin);
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+}
 .nav-logo{
     height: 5rem;
 }
