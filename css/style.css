@@ -7,8 +7,10 @@
 @font-face {
     font-family: 'Kanit';
     src: url('../assets/fonts/Kanit-Regular.ttf') format('truetype');
-    font-weight: lighter;
-    font-style: normal;
+}
+@font-face {
+    font-family: 'Kanit Light';
+    src: url('../assets/fonts/Kanit-Light.ttf') format('truetype');
 }
 
 :root {
@@ -94,4 +96,45 @@ body{
     font-size: 2rem;
     color: var(--hatter-szin-vilagos);
     text-align: center;
+}
+
+.main-text{
+    font-family: 'Kanit Light';
+    font-weight: lighter;
+    color: var(--hatter-szin-vilagos);
+    text-align: center;
+}
+
+.card{
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'Kanit Light';
+    background-color: transparent;
+    color: var(--hatter-szin-vilagos);
+    text-shadow: none;
+    border: none;
+    transition: text-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'Kanit Light';
+    background-color: transparent;
+    color: var(--hatter-szin-vilagos);
+    text-shadow: 1px 1px 10px #87a8c9;
+    border: none;
+    cursor: pointer;
+}
+
+.car-types-section{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #111214;
 }
