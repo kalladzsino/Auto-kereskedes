@@ -1,0 +1,11 @@
+[
+    {
+        "id" : 0,
+        "marka" : "Audi",
+        "modell" : "A4",
+        "kivitel" : "Limuzin",
+        "uzemanyag" : "Benzin",
+        "evjarat" : 2015,
+        "ar" : 5000000
+    }
+]
