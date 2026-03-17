@@ -34,6 +34,7 @@ body{
 
 a{
     color: rgb(79, 102, 146);
+    text-decoration: none;
 }
 
 a:hover{
@@ -121,6 +122,25 @@ a:hover{
     font-weight: lighter;
     color: var(--hatter-szin-vilagos);
     text-align: center;
+}
+.cim{
+    font-family: 'TT Octosquares';
+    font-size: 25px;
+    color: var(--hatter-szin-vilagos);
+    margin-top: 15px;
+}
+
+.felsorolas{
+    font-family: 'TT Octosquares';
+    color: var(--hatter-szin-vilagos);
+    text-indent: 5px;
+    font-size: 20px;
+}
+
+.main2{
+    font-family: 'TT Octosquares';
+    color: var(--hatter-szin-vilagos);
+    text-align: left;
 }
 
 .card-vehicle{
