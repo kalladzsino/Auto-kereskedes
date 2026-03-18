@@ -196,11 +196,20 @@ a:hover{
 }
 
 .btn-primary{
-    background-color: var(--elsodleges-szin);
+    background-color: var(--elsodleges-szin) !important;
     border: none;
 }
 
-.btn-primary:hover{
-    background-color: var(--kiemeles-szin);
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.pressed,
+.btn-primary:hover {
+    background-color: var(--kiemeles-szin) !important;
     border: none;
+}
+
+
+.asd{
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.25);
 }
