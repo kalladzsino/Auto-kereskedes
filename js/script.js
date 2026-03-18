@@ -1,3 +1,13 @@
+let markaInput;
+let modellInput;
+let talalatokDiv;
+
+document.addEventListener('DOMContentLoaded', function() {
+    markaInput = document.getElementById("markaInput");
+    modellInput = document.getElementById("modellInput");
+    talalatokDiv = document.getElementById("talalatok");
+});
+
 function includeHtml(name) {
     fetch(`./${name}.html`)
         .then(response => response.text())
@@ -14,3 +24,20 @@ window.addEventListener("scroll", function() {
     }
 });
 
+function uzenetMutatas(uzenet) {
+    alert(uzenet);
+}
+
+async function autokBetoltese() {
+    try {
+        const response = await fetch('../db/adatok.json');
+        autok = await response.json();
+        autokMegjelenites();
+    } catch (error) {
+        uzenetMutatas('Hiba történt az autók betöltése során!')
+    }
+}
+
+function ListaFrissites() {
+    talalatokDiv.innerHTML = "Teszt";
+}

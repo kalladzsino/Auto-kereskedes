@@ -1,11 +1,122 @@
 [
     {
-        "id" : 0,
-        "marka" : "Audi",
-        "modell" : "A4",
-        "kivitel" : "Limuzin",
-        "uzemanyag" : "Benzin",
-        "evjarat" : 2015,
-        "ar" : 5000000
+        "id": 0,
+        "marka": "Audi",
+        "modell": "A4",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Benzin",
+        "evjarat": 2015,
+        "ar": 5000000,
+        "foto": ""
+    },
+    {
+        "id": 1,
+        "marka": "BMW",
+        "modell": "320d",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Dízel",
+        "evjarat": 2014,
+        "ar": 4800000,
+        "foto": ""
+    },
+    {
+        "id": 2,
+        "marka": "Mercedes",
+        "modell": "C200",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Benzin",
+        "evjarat": 2016,
+        "ar": 6200000,
+        "foto": ""
+    },
+    {
+        "id": 3,
+        "marka": "Volkswagen",
+        "modell": "Golf",
+        "kivitel": "Hatchback",
+        "uzemanyag": "Benzin",
+        "evjarat": 2018,
+        "ar": 3900000,
+        "foto": ""
+    },
+    {
+        "id": 4,
+        "marka": "Toyota",
+        "modell": "Corolla",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Hibrid",
+        "evjarat": 2020,
+        "ar": 5800000,
+        "foto": ""
+    },
+    {
+        "id": 5,
+        "marka": "Ford",
+        "modell": "Focus",
+        "kivitel": "Hatchback",
+        "uzemanyag": "Benzin",
+        "evjarat": 2013,
+        "ar": 2100000,
+        "foto": ""
+    },
+    {
+        "id": 6,
+        "marka": "Opel",
+        "modell": "Astra",
+        "kivitel": "Hatchback",
+        "uzemanyag": "Dízel",
+        "evjarat": 2012,
+        "ar": 1750000,
+        "foto": ""
+    },
+    {
+        "id": 7,
+        "marka": "Skoda",
+        "modell": "Octavia",
+        "kivitel": "Combi",
+        "uzemanyag": "Benzin",
+        "evjarat": 2017,
+        "ar": 3400000,
+        "foto": ""
+    },
+    {
+        "id": 8,
+        "marka": "Renault",
+        "modell": "Megane",
+        "kivitel": "Hatchback",
+        "uzemanyag": "Benzin",
+        "evjarat": 2015,
+        "ar": 1950000,
+        "foto": ""
+    },
+    {
+        "id": 9,
+        "marka": "Nissan",
+        "modell": "Qashqai",
+        "kivitel": "SUV",
+        "uzemanyag": "Dízel",
+        "evjarat": 2019,
+        "ar": 5200000,
+        "foto": ""
+    },
+    {
+        "id": 10,
+        "marka": "Mazda",
+        "modell": "6",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Benzin",
+        "evjarat": 2011,
+        "ar": 1450000,
+        "foto": ""
+    },
+    {
+        "id": 11,
+        "marka": "Honda",
+        "modell": "Civic",
+        "kivitel": "Hatchback",
+        "uzemanyag": "Benzin",
+        "evjarat": 2014,
+        "ar": 2250000,
+        "foto": ""
     }
 ]
