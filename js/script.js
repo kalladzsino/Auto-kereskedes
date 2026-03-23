@@ -1,12 +1,5 @@
-let markaInput;
-let modellInput;
-let talalatokDiv;
-
-document.addEventListener('DOMContentLoaded', function() {
-    markaInput = document.getElementById("markaInput");
-    modellInput = document.getElementById("modellInput");
-    talalatokDiv = document.getElementById("talalatok");
-});
+let autok = [];
+let AutokFilter = [];
 
 function includeHtml(name) {
     fetch(`./${name}.html`)
@@ -24,20 +17,47 @@ window.addEventListener("scroll", function() {
     }
 });
 
-function uzenetMutatas(uzenet) {
-    alert(uzenet);
-}
-
-async function autokBetoltese() {
+// autok json betöltése + a 2 tömb változo feltöltése
+async function JsonBetoltes() {
     try {
         const response = await fetch('../db/adatok.json');
         autok = await response.json();
-        autokMegjelenites();
-    } catch (error) {
-        uzenetMutatas('Hiba történt az autók betöltése során!')
+        AutokFilter = [...autok];
+
+        autok.forEach(item => {
+            CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto);
+        });
+
+    } catch (error) { 
+        alert('Hiba történt a betöltés során!')
     }
+};
+JsonBetoltes()
+
+
+
+function CreateCard(marka, modell, kivitel, evjarat, ar, foto) {
+    let TalalatokDiv = document.getElementById("talalatok");
+    const card = document.createElement(`div`);
+
+    TalalatokDiv.innerHTML += `
+    <div class="col">
+        <div class="card card-jarmu">
+            <img src="${foto}" onerror="this.onerror=null; this.src='../assets/img/images/cars/default.png';" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">${marka} ${modell}</h5>
+                <p class="card-text">${kivitel} | ${evjarat}</p>
+                <p class="card-text card-text-mini"> ${numberWithSpaces(ar)} Ft</p>
+            </div>
+            
+        </div>
+    </div>
+    `;
+    
+    TalalatokDiv.appendChild(card);
 }
 
-function ListaFrissites() {
-    talalatokDiv.innerHTML = "Teszt";
+// szamok formazasa ezres elvalaszto spaceszel
+function numberWithSpaces(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }

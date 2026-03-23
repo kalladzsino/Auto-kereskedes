@@ -7,7 +7,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2015,
         "ar": 5000000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Audi_A4.png"
     },
     {
         "id": 1,
@@ -17,7 +17,7 @@
         "uzemanyag": "Dízel",
         "evjarat": 2014,
         "ar": 4800000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/BMW_320d.png"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2016,
         "ar": 6200000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Mercedes_C200.png"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2018,
         "ar": 3900000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Volkswagen_Golf_2018.png"
     },
     {
         "id": 4,
@@ -47,7 +47,7 @@
         "uzemanyag": "Hibrid",
         "evjarat": 2020,
         "ar": 5800000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Toyota_Corolla_2020.png"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2013,
         "ar": 2100000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Ford_Focus_2013.png"
     },
     {
         "id": 6,
@@ -67,7 +67,7 @@
         "uzemanyag": "Dízel",
         "evjarat": 2012,
         "ar": 1750000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Opel_Astra_2012.png"
     },
     {
         "id": 7,
@@ -77,7 +77,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2017,
         "ar": 3400000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Skoda_Octavia_2017.png"
     },
     {
         "id": 8,
@@ -87,7 +87,7 @@
         "uzemanyag": "Benzin",
         "evjarat": 2015,
         "ar": 1950000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Renault_Megane_2015.png"
     },
     {
         "id": 9,
@@ -97,7 +97,7 @@
         "uzemanyag": "Dízel",
         "evjarat": 2019,
         "ar": 5200000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Nissan_Qashqai_2019.png"
     },
     {
         "id": 10,
@@ -107,16 +107,16 @@
         "uzemanyag": "Benzin",
         "evjarat": 2011,
         "ar": 1450000,
-        "foto": ""
+        "foto": "../assets/img/images/cars/Mazda_6_2011.png"
     },
     {
         "id": 11,
-        "marka": "Honda",
-        "modell": "Civic",
-        "kivitel": "Hatchback",
+        "marka": "Mitsubishi",
+        "modell": "Lancer",
+        "kivitel": "Limuzin",
         "uzemanyag": "Benzin",
-        "evjarat": 2014,
-        "ar": 2250000,
+        "evjarat": 1989,
+        "ar": 500000,
         "foto": ""
     }
 ]
