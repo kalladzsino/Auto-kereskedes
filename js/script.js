@@ -24,9 +24,12 @@ async function JsonBetoltes() {
         autok = await response.json();
         AutokFilter = [...autok];
 
-        autok.forEach(item => {
+        // csak akkor generaljuk a kartyakat ha a vasarlas oldalon vagyunk,hogy ne legyen error
+        if (document.body.id === 'vasarlas') {
+            autok.forEach(item => {
             CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto);
-        });
+            });
+        }
 
     } catch (error) { 
         alert('Hiba történt a betöltés során!')
