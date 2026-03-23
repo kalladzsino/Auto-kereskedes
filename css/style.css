@@ -443,3 +443,67 @@ a:hover{
             margin-bottom: 10px;
         }
 
+.cim-behuzas{
+    margin-top: 15px;
+    text-indent: 15px;
+}
+
+.modal-body{
+    padding: 50px;
+    font-family: 'Kanit';
+    font-weight: lighter;
+}
+
+.modal-title{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    border-radius: 150px;
+    border: var(--hatter-szin-vilagos) 15px;
+}
+
+.m-footer{
+    text-align: center;
+}
