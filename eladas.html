@@ -31,23 +31,22 @@
                     <form id="ujFilmForm">
                         <div class="row">
                             <div class="col-md-12 mb-3">
-                                <label for="ujCim" class="form-label">Autó neve: *</label>
-                                <input type="text" class="form-control" id="ujAuto" required>
+                                <label for="ujCim" class="form-label">Márka: *</label>
+                                <input type="text" class="form-control" id="ujMarka" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="ujErtekeles" class="form-label">Modell *</label>
+                                <input type="text" class="form-control" id="ujModell" required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="ujEvjarat" class="form-label">Évjárat: *</label>
-                                <input type="number" class="form-control" id="ujEv" min="1900" max="2030" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="ujErtekeles" class="form-label">Km. óra állás *</label>
-                                <input type="number" class="form-control" id="ujErtekeles" min="0" max="500000" step="1"
-                                    required>
+                                <input type="number" class="form-control" id="ujEvjarat" min="1900" max="2030" required>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label for="ujRendezo" class="form-label">Vételár (Ft-ban) *</label>
-                                <input type="number" class="form-control" id="ujErtekeles" min="0" max="111111500000"
+                                <input type="number" class="form-control" id="ujAr" min="0" max="111111500000"
                                     step="1" required>
                             </div>
                             <div class="col-md-6 mb-3">
@@ -68,30 +67,10 @@
                             <input type="url" id="ujKep" class="form-control" placeholder="https://...">
                         </div>
                         <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Leírás *</label>
-                            <textarea class="form-control" id="ujLeiras" rows="6" required></textarea>
+                            <label for="ujLeiras" class="form-label">Üzemanyag *</label>
+                            <input type="text" class="form-control" id="ujUzemanyag" required>
                         </div>
                     </form>
-                    <div class="mb-3 mt-2">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                                <label class="form-check-label" for="checkDefault">
-                                    Ellenőrizhető járműelőélet
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                                <label class="form-check-label" for="checkChecked">
-                                    Klíma
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                                <label class="form-check-label" for="checkChecked">
-                                    Érvényes magyar forgalmi
-                                </label>
-                            </div>
-                        </div>  
                 </div>
                 
                 <div class="m-footer">
