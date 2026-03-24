@@ -52,7 +52,9 @@ function CreateCard(marka, modell, kivitel, evjarat, ar, foto) {
                 <p class="card-text">${kivitel} | ${evjarat}</p>
                 <p class="card-text card-text-mini"> ${numberWithSpaces(ar)} Ft</p>
             </div>
-            
+            <button class="btn btn-primary" type="button" aria-expanded="false" style="width: 100%;">
+                Részletek
+            </button>
         </div>
     </div>
     `;

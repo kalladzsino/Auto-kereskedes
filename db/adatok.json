@@ -118,5 +118,15 @@
         "evjarat": 1989,
         "ar": 500000,
         "foto": ""
+    },
+    {
+        "id": 12,
+        "marka": "Suzuki",
+        "modell": "Swift",
+        "kivitel": "Limuzin",
+        "uzemanyag": "Benzin",
+        "evjarat": 2001,
+        "ar": 1500000,
+        "foto": ""
     }
 ]
