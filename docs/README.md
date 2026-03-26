@@ -5,7 +5,6 @@
 ####   - Csapattagok: Tóth Dániel & Kalla Dzsínó Alex
 
 
-
 ## Használt programozási nyelvek:
 - HTML
 - CSS
