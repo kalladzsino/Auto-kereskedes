@@ -214,6 +214,7 @@ a:hover {
     border: none;
     transition: text-shadow 0.3s ease;
     cursor: pointer;
+    transform: translateY(-4px);
 }
 
 .card-vehicle:hover {
