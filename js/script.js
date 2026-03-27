@@ -45,7 +45,7 @@ async function JsonBetoltes() {
         // csak akkor generaljuk a kartyakat ha a vasarlas oldalon vagyunk,hogy ne legyen error
         if (document.body.id === 'vasarlas') {
             autok.forEach(item => {
-            CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag);
+            CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag, item.id);
             });
         }
 
@@ -55,7 +55,7 @@ async function JsonBetoltes() {
 };
 JsonBetoltes()
 
-function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag) {
+function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag, id) {
     let TalalatokDiv = document.getElementById("talalatok");
     const card = document.createElement(`div`);
 
@@ -69,7 +69,7 @@ function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag) {
 
                 <p class="card-text card-text-mini"> ${numberWithSpaces(ar)} Ft</p>
             </div>
-            <button class="btn btn-primary" type="button" aria-expanded="false" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button class="btn btn-primary" onclick="SetModalData(${id})" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button" aria-expanded="false" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Részletek
             </button>
         </div>
@@ -83,6 +83,13 @@ function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag) {
 function numberWithSpaces(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 };
+
+// modal adatok beirasa
+function SetModalData(id) {
+    let ModalTitle = document.getElementById("ModalTitle");
+
+    ModalTitle.innerHTML = `${autok[id].marka} ${autok[id].modell}`;
+}
 
 function Kereses() {
     const marka = markaInput.value.toLowerCase();
