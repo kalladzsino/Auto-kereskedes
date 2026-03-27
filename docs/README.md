@@ -1,18 +1,23 @@
 ﻿# Autókereskedés Projekt - 11/C
 
-####   - Projektfelelős: Tóth Dániel
+###   Projektfelelős: Tóth Dániel
 
-####   - Csapattagok: Tóth Dániel & Kalla Dzsínó Alex
+###    Csapattagok: Tóth Dániel & Kalla Dzsínó Alex
 
 
 ## Használt programozási nyelvek:
 - HTML
 - CSS
-- JAVASCRIPT
+- JAVASCRIPT (CRUD műveletek, fetch API (navbar, footer) )
 - BOOTSTRAP
 - JSON (Autó adatok)
 - README.MD (Dokumentálás)
 
+## Oldalaink:
+- Kezdőlap
+- Vásárlás
+- Eladás
+- Rólunk
 
 ### Használt színek:
 
@@ -35,6 +40,7 @@
  - [Trello (munkakiosztás)](https://trello.com/invite/b/69b13f4910db158ebda56f26/ATTI224efd5df3f47dcdeef34c5519941960137E0A93/autokereskedes-projektmunka)
  - ChatGPT (szövegek, címek, képek generálása)
  - Canva (képszerkesztés) 
+ - Képek (Unsplash, Pixabay, saját kép)
 
 <br>
 &copy; 2026 ELITE MOTORS - Minden jog fenntartva!
