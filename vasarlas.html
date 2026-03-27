@@ -20,63 +20,61 @@
 
     <br><br><br>
 
-    <div class="m-auto asd">
-        <div class="card-group">
-            <div class="card card-vasarlas-nev">
-                Márka
-                <form>
-                    <div class="input-group mb-3">
-                        <input type="" class="form-control" placeholder="" aria-label="" required id="markaInput">
-                    </div>
-                </form>
-            </div>
-            <div class="card card-vasarlas-nev">
-                Modell
-                <form>
-                    <div class="input-group mb-3">
-                        <input type="" class="form-control" placeholder="" aria-label="" required id="modellInput">
-                    </div>
-                </form>
-            </div>
-            <div class="card card-vasarlas-nev">
-                Kivitel
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        id="dropdownSzoveg" aria-expanded="false" style="width: 100%;">
-                        Kérem Válasszon
-                    </button>
-                    <ul class="dropdown-menu" style="max-height: 300px; overflow-y: scroll;">
-                        <li><a class="dropdown-item" onclick="setDropdownValue('')" href="#">Kérem Válasszon</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('Compact')" href="#">Compact</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('Coupe')" href="#">Coupe</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('Sedan')" href="#">Sedan</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('Hatchback')" href="#">Hatchback</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('SUV')" href="#">SUV</a></li>
-                        <li><a class="dropdown-item" onclick="setDropdownValue('Van')" href="#">Van</a></li>
-                    </ul>
+        <div class="m-auto asd">
+            <div class="card-group">
+                <div class="card card-vasarlas-nev">
+                    Márka
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="" class="form-control" placeholder="" aria-label="" required id="markaInput">
+                        </div>
+                    </form>
                 </div>
+                <div class="card card-vasarlas-nev">
+                    Modell
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="" class="form-control" placeholder="" aria-label="" required id="modellInput">
+                        </div>
+                    </form>
+                </div>
+                <div class="card card-vasarlas-nev">
+                    Kivitel
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" id="dropdownSzoveg" aria-expanded="false" style="width: 100%;">
+                            Kérem Válasszon
+                        </button>
+                        <ul class="dropdown-menu" style="max-height: 300px; overflow-y: scroll;">
+                            <li><a class="dropdown-item" onclick="setDropdownValue('')" href="#">Kérem Válasszon</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('Compact')" href="#">Compact</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('Coupe')" href="#">Coupe</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('Sedan')" href="#">Sedan</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('Hatchback')" href="#">Hatchback</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('SUV')" href="#">SUV</a></li>
+                            <li><a class="dropdown-item" onclick="setDropdownValue('Van')" href="#">Van</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card card-vasarlas-nev">
+                    Keresés
+                    <button class="btn btn-primary" type="button" onclick="Kereses()" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+                
             </div>
-            <div class="card card-vasarlas-nev">
-                Keresés
-                <button class="btn btn-primary" type="button" onclick="Kereses()" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <i class="bi bi-search"></i>
-                </button>
+            <br>
+        </div>
+
+        <br><br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-2">
+            <div class="m-auto asd card-group" id="talalatok">
+                
             </div>
-
         </div>
-        <br>
-    </div>
 
-    <br><br><br>
-    <div class="row row-cols-1 row-cols-md-3 g-2">
-        <div class="m-auto asd card-group" id="talalatok">
-
-        </div>
-    </div>
-
-    <br><br><br><br><br>
-
+        <br><br><br><br><br>
+    
 
     <footer>
         <script>includeHtml('footer');</script>

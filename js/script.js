@@ -69,7 +69,7 @@ function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag) {
 
                 <p class="card-text card-text-mini"> ${numberWithSpaces(ar)} Ft</p>
             </div>
-            <button class="btn btn-primary" type="button" aria-expanded="false" style="width: 100%;">
+            <button class="btn btn-primary" type="button" aria-expanded="false" style="width: 100%;" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Részletek
             </button>
         </div>
