@@ -48,6 +48,13 @@ async function JsonBetoltes() {
             CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag, item.id);
             });
         }
+        //  index oldalon az utolsó 3 autó megjelenítése
+        if (document.body.id === 'fooldal') {
+            const utolso3 = autok.slice(-3);
+            utolso3.forEach(item => {
+                CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag, item.id);
+            });
+        }
 
     } catch (error) { 
         alert('Hiba történt a betöltés során!')
