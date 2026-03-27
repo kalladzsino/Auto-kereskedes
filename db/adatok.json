@@ -7,7 +7,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2015,
         "ar": 5000000,
-        "foto": "../assets/img/images/cars/Audi_A4.png"
+        "foto": "../assets/img/images/cars/Audi_A4.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Kovács Gábor",
+        "helyszin": "Pest megye, Érd",
+        "leiras": "Szép állapot, napi használatból eladó."
     },
     {
         "id": 1,
@@ -17,7 +22,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2014,
         "ar": 4800000,
-        "foto": "../assets/img/images/cars/BMW_320d.png"
+        "foto": "../assets/img/images/cars/BMW_320d.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Nagy László",
+        "helyszin": "Győr-Moson-Sopron megye, Győr",
+        "leiras": "Megbízható 2.0 dízel motor, rendszeresen karbantartva, hosszabb utakra is kiváló. Fogyasztása kedvező, vezetési élmény top."
     },
     {
         "id": 2,
@@ -27,7 +37,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2016,
         "ar": 6200000,
-        "foto": "../assets/img/images/cars/Mercedes_C200.png"
+        "foto": "../assets/img/images/cars/Mercedes_C200.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Tóth Péter",
+        "helyszin": "Borsod-Abaúj-Zemplén megye, Miskolc",
+        "leiras": "Elegáns, kényelmes, minden működik."
     },
     {
         "id": 3,
@@ -37,7 +52,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2012,
         "ar": 1100000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Szabó István",
+        "helyszin": "Baranya megye, Pécs",
+        "leiras": "Városi használatra tökéletes kis autó. Keveset fogyaszt, olcsó fenntartás, kisebb esztétikai hibák vannak."
     },
     {
         "id": 4,
@@ -47,7 +67,12 @@
         "uzemanyag": "Hibrid",
         "evjarat": 2020,
         "ar": 5800000,
-        "foto": "../assets/img/images/cars/Toyota_Corolla_2020.png"
+        "foto": "../assets/img/images/cars/Toyota_Corolla_2020.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Varga Zoltán",
+        "helyszin": "Hajdú-Bihar megye, Debrecen",
+        "leiras": "Szinte új, hibrid, nagyon keveset fogyaszt."
     },
     {
         "id": 5,
@@ -57,7 +82,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2010,
         "ar": 950000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Molnár Ferenc",
+        "helyszin": "Csongrád-Csanád megye, Szeged",
+        "leiras": "Megy, teszi a dolgát."
     },
     {
         "id": 6,
@@ -67,7 +97,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2012,
         "ar": 1750000,
-        "foto": "../assets/img/images/cars/Opel_Astra_2012.png"
+        "foto": "../assets/img/images/cars/Opel_Astra_2012.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Farkas András",
+        "helyszin": "Fejér megye, Székesfehérvár",
+        "leiras": "Családi autónak használt, rendszeresen szervizelt dízel Astra. Tágas, megbízható, kisebb kopásokkal."
     },
     {
         "id": 7,
@@ -77,7 +112,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2017,
         "ar": 3400000,
-        "foto": "../assets/img/images/cars/Skoda_Octavia_2017.png"
+        "foto": "../assets/img/images/cars/Skoda_Octavia_2017.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Balogh József",
+        "helyszin": "Veszprém megye, Veszprém",
+        "leiras": "Nagy csomagtér, kényelmes utazóautó."
     },
     {
         "id": 8,
@@ -87,7 +127,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2015,
         "ar": 1950000,
-        "foto": "../assets/img/images/cars/Renault_Megane_2015.png"
+        "foto": "../assets/img/images/cars/Renault_Megane_2015.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Kiss Tamás",
+        "helyszin": "Somogy megye, Kaposvár",
+        "leiras": "Normális állapot, beszámítás érdekel."
     },
     {
         "id": 9,
@@ -97,7 +142,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2019,
         "ar": 5200000,
-        "foto": "../assets/img/images/cars/Nissan_Qashqai_2019.png"
+        "foto": "../assets/img/images/cars/Nissan_Qashqai_2019.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Horváth László",
+        "helyszin": "Zala megye, Zalaegerszeg",
+        "leiras": "Magas építésű SUV, kényelmes ki- és beszállás, hosszú utakra is ideális. Jó műszaki állapotban, vezetett szervizkönyvvel."
     },
     {
         "id": 10,
@@ -107,7 +157,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2011,
         "ar": 1450000,
-        "foto": "../assets/img/images/cars/Mazda_6_2011.png"
+        "foto": "../assets/img/images/cars/Mazda_6_2011.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Oláh Attila",
+        "helyszin": "Heves megye, Eger",
+        "leiras": "Korához képest szép."
     },
     {
         "id": 11,
@@ -117,7 +172,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2016,
         "ar": 4300000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Papp István",
+        "helyszin": "Jász-Nagykun-Szolnok megye, Szolnok",
+        "leiras": "Hosszú utakra használt, kényelmes és stabil autó. Gazdaságos dízel motor, rendszeresen karbantartva."
     },
     {
         "id": 12,
@@ -127,7 +187,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2001,
         "ar": 160000,
-        "foto": "../assets/img/images/cars/Suzuki_Swift_2001_1.png"
+        "foto": "../assets/img/images/cars/Suzuki_Swift_2001_1.png",
+        "foto2": "../assets/img/images/cars/Suzuki_Swift_2001_2.png",
+        "foto3": "../assets/img/images/cars/Suzuki_Swift_2001_3.png",
+        "elado": "Popány Dávid",
+        "helyszin": "Csongrád-Csanád megye, Apátfalva",
+        "leiras": "Olcsó, visz A-ból B-be. Bal oldalt javított küszöb. Műszaki vizsga nincs, de a motor és a váltó jó állapotban van."
     },
     {
         "id": 13,
@@ -137,7 +202,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2017,
         "ar": 7200000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Lakatos József",
+        "helyszin": "Szabolcs-Szatmár-Bereg megye, Nyíregyháza",
+        "leiras": "Prémium kategória, erős motor, kényelmes utazás. Igényes tulajdonostól, szép állapotban."
     },
     {
         "id": 14,
@@ -147,7 +217,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2018,
         "ar": 8700000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Simon Zoltán",
+        "helyszin": "Vas megye, Szombathely",
+        "leiras": "Full extra, erős, hibátlan."
     },
     {
         "id": 15,
@@ -157,7 +232,12 @@
         "uzemanyag": "Dízel",
         "evjarat": 2015,
         "ar": 6400000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Fekete Lajos",
+        "helyszin": "Komárom-Esztergom megye, Tatabánya",
+        "leiras": "Kényelmes utazóautó, jó fogyasztással és megbízható technikával. Igényes belső tér, megkímélt állapot."
     },
     {
         "id": 16,
@@ -167,7 +247,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 1989,
         "ar": 500000,
-        "foto": "../assets/img/images/cars/Mitsubishi_Lancer_1989.png"
+        "foto": "../assets/img/images/cars/Mitsubishi_Lancer_1989.png",
+        "foto2": "../assets/img/images/cars/Mitsubishi_Lancer_1989_2.png",
+        "foto3": "../assets/img/images/cars/Mitsubishi_Lancer_1989_3.png",
+        "elado": "Tóth Dániel",
+        "helyszin": "Csongrád-Csanád megye, Kiszombor",
+        "leiras": "Régi, de működik. A motor tartórúd rozsdás, de a motor jó állapotban van. A karosszéria is rozsdás néhol, de nincs nagy lyuk. műszaki van. <br><br> Aszfaltkaparó 97 lóerő!!"
     },
     {
         "id": 17,
@@ -177,7 +262,12 @@
         "uzemanyag": "Hibrid",
         "evjarat": 2019,
         "ar": 6000000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Bíró László",
+        "helyszin": "Békés megye, Békéscsaba",
+        "leiras": "Hibrid rendszerének köszönhetően rendkívül alacsony fogyasztású autó. Városban és országúton is ideális."
     },
     {
         "id": 18,
@@ -187,7 +277,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2014,
         "ar": 1650000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Gulyás Péter",
+        "helyszin": "Budapest, Budapest",
+        "leiras": "Jó kis autó, eladó."
     },
     {
         "id": 19,
@@ -197,7 +292,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2013,
         "ar": 2100000,
-        "foto": "../assets/img/images/cars/Ford_Focus_2013.png"
+        "foto": "../assets/img/images/cars/Ford_Focus_2013.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Kelemen András",
+        "helyszin": "Pest megye, Vác",
+        "leiras": "Megbízható, kényelmes kompakt autó, családi használatra is megfelelő. Rendszeresen karbantartott."
     },
     {
         "id": 20,
@@ -207,7 +307,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2013,
         "ar": 1250000,
-        "foto": ""
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Török Zoltán",
+        "helyszin": "Győr-Moson-Sopron megye, Sopron",
+        "leiras": "Egyszerű, megbízható."
     },
     {
         "id": 21,
@@ -217,7 +322,12 @@
         "uzemanyag": "Benzin",
         "evjarat": 2018,
         "ar": 3900000,
-        "foto": "../assets/img/images/cars/Volkswagen_Golf_2018.png"
+        "foto": "../assets/img/images/cars/Volkswagen_Golf_2018.png",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Veres István",
+        "helyszin": "Baranya megye, Komló",
+        "leiras": "Megkímélt állapot, modern felszereltség, kényelmes és dinamikus vezetési élmény."
     },
     {
         "id": 22,
@@ -227,6 +337,11 @@
         "uzemanyag": "Benzin",
         "evjarat": 2015,
         "ar": 2400000,
-        "foto": ""
-    }   
+        "foto": "",
+        "foto2": "",
+        "foto3": "",
+        "elado": "Kárpáti Gábor",
+        "helyszin": "Csongrád-Csanád megye, Hódmezővásárhely",
+        "leiras": "Egyedi kinézet, jó állapot."
+    }
 ]

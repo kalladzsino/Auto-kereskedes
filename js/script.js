@@ -62,7 +62,7 @@ function CreateCard(marka, modell, kivitel, evjarat, ar, foto, uzemanyag, id) {
     TalalatokDiv.innerHTML += `
     <div class="col">
         <div class="card card-jarmu">
-            <img src="${foto}" onerror="this.onerror=null; this.src='../assets/img/images/cars/default.png';" class="card-img-top" alt="...">
+            <img src="${foto}" onerror="this.onerror=null; this.src='../assets/img/images/cars/Default.png';" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${marka} ${modell}</h5>
                 <p>${kivitel} | ${evjarat} <br> ${uzemanyag}</p>
@@ -86,10 +86,68 @@ function numberWithSpaces(x) {
 
 // modal adatok beirasa
 function SetModalData(id) {
+    let DefaultFoto = "../assets/img/images/cars/Default.png";
     let ModalTitle = document.getElementById("ModalTitle");
+    let ModalSubtitle = document.getElementById("ModalSubtitle");
+    let ModalAr = document.getElementById("ModalAr");
+    let ModalElado = document.getElementById("ModalElado");
+    let ModalHelyszin = document.getElementById("ModalHelyszin");
+    let ModalUzemanyag = document.getElementById("ModalUzemanyag");
+    let ModalLeiras = document.getElementById("ModalLeiras");
+
 
     ModalTitle.innerHTML = `${autok[id].marka} ${autok[id].modell}`;
+    ModalSubtitle.innerHTML = `${autok[id].kivitel} | ${autok[id].evjarat}`;
+    ModalAr.innerHTML = `${numberWithSpaces(autok[id].ar)} Ft`;
+    ModalElado.innerHTML = `Eladó: ${autok[id].elado}`;
+    ModalHelyszin.innerHTML = `Helyszín: ${autok[id].helyszin}`;
+    ModalUzemanyag.innerHTML = `Üzemanyag: ${autok[id].uzemanyag}`;
+    ModalLeiras.innerHTML = autok[id].leiras;
+
+    ClearModalCarousel()
+    if (autok[id].foto !== ""){
+        SetModalCarouselItem(autok[id].foto, true);
+    }
+    else {
+        SetModalCarouselItem(DefaultFoto, true);
+    }
+    if (autok[id].foto2 !== ""){
+        SetModalCarouselItem(autok[id].foto2, false);
+    }
+    else {
+        SetModalCarouselItem(DefaultFoto, false);
+    }
+    if (autok[id].foto3 !== ""){
+        SetModalCarouselItem(autok[id].foto3), false;
+    }
+    else {
+        SetModalCarouselItem(DefaultFoto, false);
+    }
 }
+
+function ClearModalCarousel() {
+    let ModalCarousel = document.getElementById("ModalCarousel");
+    ModalCarousel.innerHTML = "";
+}
+
+function SetModalCarouselItem(foto, active = false) {
+    let ModalCarousel = document.getElementById("ModalCarousel");
+    if (active) {
+        ModalCarousel.innerHTML += `
+        <div class="carousel-item active">
+            <img src="${foto}" class="d-block w-100" >
+        </div>
+    `;  
+    }
+    else{
+        ModalCarousel.innerHTML += `
+            <div class="carousel-item">
+                <img src="${foto}" class="d-block w-100" >
+            </div>
+        `;
+    }
+}
+
 
 function Kereses() {
     const marka = markaInput.value.toLowerCase();
@@ -118,7 +176,8 @@ function Kereses() {
             item.evjarat,
             item.ar,
             item.foto,
-            item.uzemanyag
+            item.uzemanyag,
+            item.id
         );
     });
 };

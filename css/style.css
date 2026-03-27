@@ -22,6 +22,10 @@
     font-weight: lighter !important;
 }
 
+.card-right{
+    margin: auto !important;
+}
+
 .modal-fullscreen .modal-dialog{
     width: 100%;
     max-width: 100%;

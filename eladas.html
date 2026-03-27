@@ -30,6 +30,8 @@
                 </div>
                 <div class="modal-body">
                     <form id="ujAutoForm">
+                        <h3>A jármű adatai</h3>
+                        <br>
                         <div class="row">
                             <div class="col-md-12 mb-3">
                                 <label for="ujCim" class="form-label">Márka *</label>
@@ -64,12 +66,38 @@
                             </div>
                         </div>
                         <div class="mb-3">
-                            <label for="ujKep" class="form-label">Autókép URL címe</label>
+                            <label for="ujLeiras" class="form-label">Üzemanyag *</label>
+                            <input type="text" class="form-control" id="ujUzemanyag" required>
+                        </div>
+                        <br><br>
+                        <h3>Az ön adatai</h3>
+                        <br>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Eladó Neve *</label>
+                            <input type="text" class="form-control" id="ujElado" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Helyszín *</label>
+                            <input type="text" class="form-control" id="ujHelyszin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Leírás</label>
+                            <input type="text" class="form-control" id="ujLeiras" required>
+                        </div>
+                        <br><br>
+                        <h3>Autóképek</h3>
+                        <br>
+                        <div class="mb-3">
+                            <label for="ujKep" class="form-label">1. Autókép URL címe</label>
                             <input type="url" id="ujKep" class="form-control" placeholder="https://...">
                         </div>
                         <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Üzemanyag *</label>
-                            <input type="text" class="form-control" id="ujUzemanyag" required>
+                            <label for="ujKep" class="form-label">2. Autókép URL címe</label>
+                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujKep" class="form-label">3. Autókép URL címe</label>
+                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
                         </div>
                     </form>
                 </div>
