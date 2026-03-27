@@ -476,20 +476,14 @@ a:hover {
 
 
 
+#navbarSupportedContent {
+    max-height: 0;
+    transition: 1.0s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#navbarSupportedContent.show {
+    max-height: 300px;
+}
 
 
 
@@ -501,7 +495,14 @@ a:hover {
     font-style: 'TT Octosquares', 'Kanit', sans-serif;
     font-size: larger;
 }
-
+.gomb-navbar {
+    border-radius: 28px;
+    border: var(--hatter-szin-vilagos) 15px;
+    background-color: var(--elsodleges-szin);
+    color: var(--hatter-szin-vilagos);
+    font-family: 'Kanit';
+    font-size: 20px;
+}
 .m-footer {
     text-align: center;
 }

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ELITE MOTORS - Bejelentkezés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dani.css">
+    <link rel="icon" href="assets/img/car.png">
+</head>
+
+<body style="background-image: none; background-color: var(--hatter-szin-sotet); color:var(--hatter-szin-vilagos)" ;>
+    <script src="js/script.js"></script>
+    <navbar>
+        <script>includeHtml('navbar');</script>
+    </navbar>
+
+    <br><br><br>
+
+    <div class="m-auto asd">
+        <div class="card-group">
+            <div class="modal-content">
+                <div class="modal-header mx-auto mt-2">
+                    <h5 class="modal-title cim-behuzas">
+                        <span class="bi bi-car-front"></span> Új autó felvétele
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <form id="ujAutoForm">
+                        <h3>A jármű adatai</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label for="ujCim" class="form-label">Márka *</label>
+                                <input type="text" class="form-control" id="ujMarka" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="ujErtekeles" class="form-label">Modell *</label>
+                                <input type="text" class="form-control" id="ujModell" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="ujEvjarat" class="form-label">Évjárat: *</label>
+                                <input type="number" class="form-control" id="ujEvjarat" min="1900" max="2030" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="ujRendezo" class="form-label">Vételár (Ft-ban) *</label>
+                                <input type="number" class="form-control" id="ujAr" min="0" max="111111500000" step="1"
+                                    required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="ujKategoria" class="form-label">Kivitel *</label>
+                                <select id="ujKategoria" class="form-select" required>
+                                    <option value="">Válasszon kategóriát...</option>
+                                    <option value="compact">Compact</option>
+                                    <option value="coupe">Coupe</option>
+                                    <option value="sedan">Sedan</option>
+                                    <option value="station-wagon">Station Wagon</option>
+                                    <option value="suv">SUV</option>
+                                    <option value="van">Van</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Üzemanyag *</label>
+                            <input type="text" class="form-control" id="ujUzemanyag" required>
+                        </div>
+                        <br><br>
+                        <h3>Az ön adatai</h3>
+                        <br>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Eladó Neve *</label>
+                            <input type="text" class="form-control" id="ujElado" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Helyszín *</label>
+                            <input type="text" class="form-control" id="ujHelyszin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujLeiras" class="form-label">Leírás</label>
+                            <input type="text" class="form-control" id="ujLeiras" required>
+                        </div>
+                        <br><br>
+                        <h3>Autóképek</h3>
+                        <br>
+                        <div class="mb-3">
+                            <label for="ujKep" class="form-label">1. Autókép URL címe</label>
+                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujKep" class="form-label">2. Autókép URL címe</label>
+                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="ujKep" class="form-label">3. Autókép URL címe</label>
+                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="m-footer">
+                    <button class="btn gomb" type="submit" id="Ujautofelvetel">
+                        <span class="bi bi-send my-2"></span> Küldés</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <br><br><br>
+
+
+    <br><br><br><br><br>
+
+    <footer>
+        <script>includeHtml('footer');</script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

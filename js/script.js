@@ -23,8 +23,8 @@ function includeHtml(name) {
     fetch(`./${name}.html`)
         .then(response => response.text())
         .then(html => document.querySelector(name).innerHTML = html);
+        
 }
-
 // amikor a felhasználó görgeti az oldaltt akkor rárakjuk a classt hogy 100%ra animálójon
 window.addEventListener("scroll", function() {
     const navbar = document.querySelector(".navbar");
@@ -48,7 +48,7 @@ async function JsonBetoltes() {
             CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag, item.id);
             });
         }
-        //  index oldalon az utolsó 3 autó megjelenítése
+        // ÚJ: index oldalon az utolsó 3 autó megjelenítése
         if (document.body.id === 'fooldal') {
             const utolso3 = autok.slice(-3);
             utolso3.forEach(item => {
