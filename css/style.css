@@ -507,6 +507,9 @@ a:hover {
     text-align: center;
 }
 
+.kanit{
+    font-family: 'Kanit';
+}
 
 .asd {
     font-family: 'TT Octosquares';
@@ -515,4 +518,10 @@ a:hover {
 .card {
     font-family: 'Kanit';
     font-weight: lighter;
+}
+
+.form-control{
+    background-color: var(--hatter-szin-vilagos);
+    box-shadow: rgba(255, 255, 255, 0.22) 0px 5px 15px;
+    border-radius: 5px;
 }
