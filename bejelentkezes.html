@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="hu">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,101 +20,41 @@
 
     <br><br><br>
 
-    <div class="m-auto asd">
+    <div class="m-auto mb-5">
         <div class="card-group">
             <div class="modal-content">
-                <div class="modal-header mx-auto mt-2">
-                    <h5 class="modal-title cim-behuzas">
-                        <span class="bi bi-login"></span> Bejelentkezés
+                <div class="cta-section mt-5 pt-5 pb-5 mb-5 text-center rounded w-50 mx-auto">
+                    <h5 class="modal-title pb-4">
+                        <span class="bi bi-box-arrow-in-right"></span> Bejelentkezés
                     </h5>
-                </div>
-                <div class="modal-body">
-                    <form id="ujAutoForm">
-                        <h3>A jármű adatai</h3>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12 mb-3">
-                                <label for="ujCim" class="form-label">Márka *</label>
-                                <input type="text" class="form-control" id="ujMarka" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="ujErtekeles" class="form-label">Modell *</label>
-                                <input type="text" class="form-control" id="ujModell" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="ujEvjarat" class="form-label">Évjárat: *</label>
-                                <input type="number" class="form-control" id="ujEvjarat" min="1900" max="2030" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <label for="ujRendezo" class="form-label">Vételár (Ft-ban) *</label>
-                                <input type="number" class="form-control" id="ujAr" min="0" max="111111500000" step="1"
-                                    required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <label for="ujKategoria" class="form-label">Kivitel *</label>
-                                <select id="ujKategoria" class="form-select" required>
-                                    <option value="">Válasszon kategóriát...</option>
-                                    <option value="compact">Compact</option>
-                                    <option value="coupe">Coupe</option>
-                                    <option value="sedan">Sedan</option>
-                                    <option value="station-wagon">Station Wagon</option>
-                                    <option value="suv">SUV</option>
-                                    <option value="van">Van</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Üzemanyag *</label>
-                            <input type="text" class="form-control" id="ujUzemanyag" required>
-                        </div>
-                        <br><br>
-                        <h3>Az ön adatai</h3>
-                        <br>
-                        <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Eladó Neve *</label>
-                            <input type="text" class="form-control" id="ujElado" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Helyszín *</label>
-                            <input type="text" class="form-control" id="ujHelyszin" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="ujLeiras" class="form-label">Leírás</label>
-                            <input type="text" class="form-control" id="ujLeiras" required>
-                        </div>
-                        <br><br>
-                        <h3>Autóképek</h3>
-                        <br>
-                        <div class="mb-3">
-                            <label for="ujKep" class="form-label">1. Autókép URL címe</label>
-                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
-                        </div>
-                        <div class="mb-3">
-                            <label for="ujKep" class="form-label">2. Autókép URL címe</label>
-                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
-                        </div>
-                        <div class="mb-3">
-                            <label for="ujKep" class="form-label">3. Autókép URL címe</label>
-                            <input type="url" id="ujKep" class="form-control" placeholder="https://...">
-                        </div>
-                    </form>
-                </div>
+                    <div class="col-md-12 mb-3 w-50 mx-auto">
 
-                <div class="m-footer">
-                    <button class="btn gomb" type="submit" id="Ujautofelvetel">
-                        <span class="bi bi-send my-2"></span> Küldés</button>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="E-mail cím" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="password" class="form-control" placeholder="Jelszó" required>
+                        </div>
+                        
+                        <div class="mb-4 text-end">
+                            <a class="kanit" href="#">Elfelejtett jelszó</a>
+                        </div>
+
+                        <div class="d-grid">
+                            <button class="btn gomb fw-bolder" type="submit" id="Bejelentkezes">Bejelentkezés</button>
+                        </div>
+
+                        <div class="mt-4 ">
+                            <p  class="kanit">Nincs még fiókod?<a href="#"> Regisztrálj most</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <br>
     </div>
 
-    <br><br><br>
-
-
-    <br><br><br><br><br>
 
     <footer>
         <script>includeHtml('footer');</script>

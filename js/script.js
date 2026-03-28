@@ -1,6 +1,14 @@
 let autok = [];
 let AutokFilter = [];
 
+function ShowToast(title, message) {
+    const toastLiveExample = document.getElementById('liveToast');
+    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+    document.querySelector('.toast-body').textContent = message;
+    document.querySelector('.toast-title').textContent = title;
+    toastBootstrap.show();
+}
+
 // html filter bemenetek
 let markaInput;
 let modellInput;
@@ -17,6 +25,57 @@ function setDropdownValue(value) {
     if (value === "") {
         dropdownSzoveg.textContent = "Kérem Válasszon";
     }
+}
+
+let ujKivitel = "";
+function SetEladasKategoriaValue(value) {
+    ujKivitel = value;
+}
+
+function AddNewCar() {
+    const ujMarka = document.getElementById("ujMarka").value;
+    const ujModell = document.getElementById("ujModell").value;
+    const ujEvjarat = document.getElementById("ujEvjarat").value;
+    const ujAr = document.getElementById("ujAr").value;
+    const ujFoto1 = document.getElementById("ujFoto1").value;
+    const ujFoto2 = document.getElementById("ujFoto2").value;
+    const ujFoto3 = document.getElementById("ujFoto3").value;
+    const ujUzemanyag = document.getElementById("ujUzemanyag").value;
+    const ujElado = document.getElementById("ujElado").value;
+    const ujHelyszin = document.getElementById("ujHelyszin").value;
+    const ujLeiras = document.getElementById("ujLeiras").value;
+
+    // kivitel közvetlenül a selectből olvasva (az onclick nem működik option-ön)
+    const selectElem = document.querySelector("#EladasModal .form-select");
+    ujKivitel = selectElem.value;
+
+    // validáció
+    if (!ujMarka || !ujModell || !ujEvjarat || !ujAr || !ujKivitel || !ujUzemanyag || !ujElado || !ujHelyszin) {
+        ShowToast("Hiba történt!", "Kérjük, töltse ki az összes kötelező mező(ke)t (*)!");
+        return false; // false-t ad vissza hiba esetén
+    }
+
+    autok.push({
+        id: autok.length,
+        marka: ujMarka,
+        modell: ujModell,
+        kivitel: ujKivitel,
+        uzemanyag: ujUzemanyag,
+        evjarat: parseInt(ujEvjarat),
+        ar: parseInt(ujAr),
+        foto: ujFoto1,
+        foto2: ujFoto2,
+        foto3: ujFoto3,
+        elado: ujElado,
+        helyszin: ujHelyszin,
+        leiras: ujLeiras
+    });
+    Kereses();
+}
+
+function ShowEladasaModal() {
+    const EladasModal = new bootstrap.Modal(document.getElementById('EladasModal'));
+    EladasModal.show();
 }
 
 function includeHtml(name) {
@@ -50,8 +109,13 @@ async function JsonBetoltes() {
         }
         // ÚJ: index oldalon az utolsó 3 autó megjelenítése
         if (document.body.id === 'fooldal') {
-            const utolso3 = autok.slice(-3);
-            utolso3.forEach(item => {
+            const indexautok = []
+            
+            indexautok.push(autok[Math.floor(Math.random() * 23)]);
+            indexautok.push(autok[Math.floor(Math.random() * 23)]);
+            indexautok.push(autok[Math.floor(Math.random() * 23)]);
+
+            indexautok.forEach(item => {
                 CreateCard(item.marka, item.modell, item.kivitel, item.evjarat, item.ar, item.foto, item.uzemanyag, item.id);
             });
         }
