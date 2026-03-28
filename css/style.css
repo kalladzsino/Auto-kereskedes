@@ -472,30 +472,6 @@ a:hover {
     font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #navbarSupportedContent {
     max-height: 0;
     transition: 1.0s ease;
@@ -504,8 +480,6 @@ a:hover {
 #navbarSupportedContent.show {
     max-height: 300px;
 }
-
-
 
 .gomb {
     border-radius: 28px;
@@ -526,7 +500,6 @@ a:hover {
 .m-footer {
     text-align: center;
 }
-
 
 .asd {
     font-family: 'TT Octosquares';
